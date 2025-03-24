@@ -1,3 +1,4 @@
+import useFetch from './hooks/useFecthCharacters';
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   
   return (
     <>
+      <useFetch />
     </>
   );
 }
