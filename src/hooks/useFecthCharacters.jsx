@@ -2,7 +2,7 @@ import React from "react"
 import { useState, useEffect } from "react"
 import '../App.css';
 
-const useFetch = () => {
+const UseFetchComponent = () => {
     const [ fetchApi, setFetchApi ] = useState(null)
     const [ loading, setLoading ] = useState(false)
     const [ selectecUrl, setSelectedUrl ] = useState("https://pokeapi.co/api/v2/pokemon/lugia")
@@ -45,4 +45,4 @@ const useFetch = () => {
         
     }
 
-export default useFetch 
+export default UseFetchComponent 
